@@ -1,5 +1,5 @@
-my_new_int_for_test = 5
+print (dir())
 
-CONSTANT_FOR_CAR = 4
+print (dir(''))
 
-car_type = 3
+print (dir(1))
