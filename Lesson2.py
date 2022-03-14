@@ -1,5 +1,1 @@
-print (dir())
-
-print (dir(''))
-
-print (dir(1))
+print(dir(__builtins__))
