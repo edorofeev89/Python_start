@@ -1,10 +1,5 @@
-input_parameter = int(input('Введите число:'))
-result = 0
+a = int(input('Введите число:'))
 
-while input_parameter != 0:
-    numb = input_parameter % 10
-    input_parameter = input_parameter // 10
+a = ((a%10) * 100) +(((a//10) % 10) * 10) + (a//100)
 
-    result = result * 10 + numb
-
-print(result)
+print(a)
