@@ -2,11 +2,6 @@ import random
 
 x = int(input('Рост Пети: '))
 
-if x < 120:
-    print('Рост не может быть менее 120 см')
-elif x > 200:
-    print('Рост не может быть более 200 см')
-
 people = [random.randint(120, 200) for _ in range(20)]
 people.sort(reverse=True)
 
